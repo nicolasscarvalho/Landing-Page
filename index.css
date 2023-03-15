@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+#principal {
+    background-color: #ED7D3A;
+}
+
+#estatisticas {
+    background-color: #EF2D56;
+}
+
+#depoimentos {
+    background-color: #DCED31;
+}
+
+#conteudos {
+    background-color: #363537;
+}
+*/
+
+
+
+#principal {
+    background-image: url('./images/pexels-lil-artsy-1394646.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    color: white;
+
+    padding-top: 2.5%;
+}
+
+#principal h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#principal section {
+    width: 45%;
+}
+
+#principal section:nth-child(2) {
+    width: 5%;
+}
+
+
+#principal form {
+    width: 100%;
+    padding: 10%;
+}
+
+#divulga-ebook {
+    width: 200px;
+    height: 300px;
+}
