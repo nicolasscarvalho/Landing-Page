@@ -32,6 +32,7 @@ var gAlunos = new Chart(ctxAlunos, {
 })
 
 
+/*
 var gAprovacoes = new Chart(ctxAprovacoes, {
     type: 'pie',
 
@@ -63,3 +64,4 @@ var gAprovacoes = new Chart(ctxAprovacoes, {
     },
 
 })
+*/
