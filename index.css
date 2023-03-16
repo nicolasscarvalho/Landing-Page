@@ -70,3 +70,10 @@ div:nth-child(n+1) {
     width: 200px;
     height: 300px;
 }
+
+
+
+
+.card {
+    text-align: justify;
+}
