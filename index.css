@@ -7,31 +7,42 @@ body {
     box-sizing: border-box;
 }
 
-/*
-#principal {
-    background-color: #ED7D3A;
+hr {
+    display: none;
 }
 
+div:nth-child(n+1) {
+    padding: 2.5%;
+}
+
+
+
+
+
 #estatisticas {
-    background-color: #EF2D56;
+    background-color: #231F1E;
+    color: #8E8985;
 }
 
 #depoimentos {
-    background-color: #DCED31;
+    background-color: #5D4237;
+    color: #8E8985;
 }
 
 #conteudos {
-    background-color: #363537;
+    background-color: #231F1E;
+    color: #8E8985;
 }
-*/
+
+
 
 
 
 #principal {
     background-image: url('./images/pexels-lil-artsy-1394646.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-size: 100%;
 
     color: white;
 
@@ -49,7 +60,6 @@ body {
 #principal section:nth-child(2) {
     width: 5%;
 }
-
 
 #principal form {
     width: 100%;
